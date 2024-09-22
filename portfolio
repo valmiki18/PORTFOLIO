@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+
+        }
+
+        header {
+            background: lightseagreen;
+            color: black ;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background: lightcyan;
+            color:black;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: black;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        #about,
+        #portfolio,
+        #contact {
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        #about p,
+        #contact p {
+            margin: 1rem 0;
+        }
+
+        #portfolio .project {
+            display: inline-block;
+            width: 40%;
+            margin: 1%;
+            padding: 1rem;
+            box-shadow: 0 0 10px lightseagreen;
+        }
+
+        #portfolio img {
+            max-width: 100%;
+        }
+
+        footer {
+            background: lightpink;
+            color: black;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>VALMIKI SHIVA NAGESWARI</h1>
+            <p>WELCOME TO MY PROFESSIONAL PORTFOLIO</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#Home"><i class="fa fa-home"></i>Home</a>
+            <a href="#about"><i class="fas fa-user"></i>About Me</a>
+            <a href="#projects"><i class="glyphicon glyphicon-file"></i>Projects</a>
+			<a href="#Resume"><i class="fas fa-envelope"></i>Resume</a>
+			 <a href="#contact"><i class="fas fa-envelope"></i>Contact</a>
+			
+        </div>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a final year Computer Science student a hard-working and driven individual who isn't afraid to face a challenge. I'm passionate about my work.</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <img src="https://play-lh.googleusercontent.com/5ENdgpFsRhQt9y_ySp9UK_p-CL0TmhSwW5pKmmzzIW0OLFR3EvAtzAGm6c_IkkfgVg=w240-h480-rw" class="rounded-circle" alt="Tic tac toe">
+                <p>A Tic Tac Toe project is a simple game development initiative that typically involves creating a digital version of the classic two-player game. The project can be implemented using various programming languages and frameworks, allowing players to take turns marking spaces on a 3x3 grid with either "X" or "O." </p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <img src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=1024x1024&w=is&k=20&c=Mz2G15YAcE09_ywaRc43p9jmG2urk69uqyopTbaG4cI=" class="rounded-circle" alt="Project2">
+                <p>An AI project typically involves the development of algorithms and models that enable machines to perform tasks that require human-like intelligence. This could include natural language processing, image recognition, or predictive analytics. </p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <img src="https://images04.nicepage.com/feature/461183/website-blog.jpg" alt="Project3">
+                <p>A blog website is an online platform where individuals or organizations publish articles, essays, or posts on various topics. These entries can range from personal reflections and expert insights to tutorials and news updates..</p>
+            </div>
+        </div>
+    </section>
+   
+	<section id="Resume">
+	    <div class="container">
+		<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+            color: #888;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .section ul li h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .section ul li p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Valmiki Shiva Nageswari</h1>
+            <p>Email: valmikishivanageswari.com | Phone:+91-8374066808</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>Annamacharya University, 2021-2025</p>
+                </li>
+                <li>
+                    <h3>Intermediate</h3>
+                    <p> Narayana Junior clg, 2019 - 2021</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <h3>Intern</h3>
+                    <p>Artificial Intelligence,2023</p>
+                    <p>Through Linkedin Learning and MICROSOFT.</p>
+                </li>
+                <li>
+                    <h3>Intern</h3>
+                    <p>FULL STACK WEB DEVELOPMENT</p>
+                    <p>Assisted in developing FRONTEND services and improving database performance.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>
+                    <p>HTML</p>
+                </li>
+                <li>
+                    <p>Python, Java</p>
+                </li>
+                <li>
+                    <p>SQL Databases</p>
+                </li>
+                <li>
+                    <p>c ,Basics in c++</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+	<section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>+91 8374066808</p>
+            <p>Email: valmikishivanageswari@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;PORTFOLIO</p>
+    </footer>
+</body>
+</html>
+
